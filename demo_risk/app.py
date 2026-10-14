@@ -26,6 +26,8 @@ from demo_risk.utils import (
 app = FastAPI()
 
 origins = [
+    "http://localhost:3000",  # self-hosted Workspace Lite
+    "http://127.0.0.1:3000",
     "https://pro.openbb.co",
     "https://pro.openbb.dev",
 ]
